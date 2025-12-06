@@ -1,0 +1,7 @@
+num_classes: 5
+
+epoch: 120
+batch_size: 32
+learning_rate: 0.0001
+stamp_every: 1
+checkpoint_path: ./weight

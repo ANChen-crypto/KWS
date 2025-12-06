@@ -1,0 +1,1 @@
+from .wavlm import KWSModel
