@@ -1,3 +1,12 @@
-name_list: ["deff", "ken"]
+name_list_train: ["deff", "ken", "ST-SJ", "hsiu", "noise_train", "unk_train", "person1", "person2", "person3", "person4", "person5", "person6", "person7", "Jason"]
+name_list_test: ["ST-qy"]
+
+
 audio_length: 32000
 sampling_rate: 16000
+
+n_mels: 35
+hop_length: 160
+n_fft: 512
+
+process_list: ["deff", "ken", "ST-SJ", "hsiu", "ST-qy", "noise_train", "noise_test"]

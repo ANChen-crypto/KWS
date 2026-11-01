@@ -1,0 +1,8 @@
+/.venv/
+/quantize_venv/
+/ken/
+*.png
+*.m4a
+*.wav
+*.pyc
+/data/subdir/subdir/example.wav

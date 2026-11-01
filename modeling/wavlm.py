@@ -6,7 +6,7 @@ import torch.nn as nn
 from transformers import WavLMForSequenceClassification
 
 
-@ dataclass
+@dataclass
 class KMSModelConfig:
     num_classes: int = field(
         default=5, metadata={"help": "number of classes for kws model"}

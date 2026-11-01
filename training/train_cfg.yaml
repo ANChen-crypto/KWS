@@ -1,7 +1,9 @@
-num_classes: 1200
-
-epoch: 1
+num_classes: 13
+epoch: 50
 batch_size: 32
-learning_rate: 0.0001
+learning_rate: 0.0004
 stamp_every: 1
+save_every: 1
 checkpoint_path: ./weight
+input_type: "cnn_ctc"
+loss_weight: [1, 1, 1, 1, 1]
